@@ -1,0 +1,97 @@
+html{background: cyan;
+background-image: url("images/para.jpg");min-height: 500px; 
+background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+background{color:blue;  
+}
+
+header{background-color:#4169E1; border:solid white 4px; margin-top:20px; padding:20px;
+}
+
+h1 {position:relative; bottom:300px; text-align: center; margin:20px; color:white; font-size: 50px; line-height: 0.4;
+}
+
+
+h2 {
+  position:relative; bottom:300px;text-indent: 460px; color:white; font-size: 20px; line-height:0.4;
+}
+
+
+section{width:420px ;color:white; font-size:40px;
+  align:center;background-color:#9932CC;border:solid white 3px; padding:7px;
+}
+
+section.education, section.career, section.experience{
+  position: relative; left:800px; bottom:7px; 
+}
+
+h3{
+  position: relative; left:810px; bottom:7px; color:black
+}
+
+
+p{
+  position: relative; left:810px; bottom:7px;color: black;
+}
+
+t {
+  text-indent:5px;
+}
+
+ol{font-size:50px;
+	list-style:none;
+}
+
+li{line-height:50px;
+}
+
+li.first::before{font-size:30px;
+	content:"\263B";
+	color:blue;
+}
+ 
+li.address{font-size:30px;
+	list-style-image: url('images/home.png');
+}
+
+
+li.num{ font-size:30px;
+	list-style-image: url('images/num.png');
+}
+
+
+li.email{font-size:30px;
+	list-style-image: url('images/email.png');
+}
+
+
+li.degn{ font-size:30px;
+	list-style-image: url('images/desgn.png');
+}
+
+table{position:relative; bottom:1300px; left:100px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+#t01 th {
+  background-color: black;
+  color: white;
+};
+}
